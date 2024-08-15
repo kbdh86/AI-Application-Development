@@ -1,0 +1,4 @@
+// Initialize the Vertex AI service and the generative model
+// Specify a model that supports your use case
+// Gemini 1.5 models are versatile and can be used with all API capabilities
+val generativeModel = Firebase.vertexAI.generativeModel("gemini-1.5-flash")
